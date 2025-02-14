@@ -396,128 +396,64 @@
     
  <!-- Penn Priorities -->
 
- <section class="bg-[#011f5b] py-16">
-    <!-- Header -->
-    <div class="flex flex-col items-center text-center justify-center mb-12">
-        <h2 class="text-4xl font-serif text-white mb-4">Penn Priorities</h2>
-        <p class="text-white text-center max-w-2xl px-4">
-            A look at a few of our big picture priorities that improve Penn as we create knowledge to benefit the world.
-        </p>
-    </div>
-
-    <!-- Desktop Layout (hidden on mobile) -->
-    <div class="hidden lg:flex justify-center mx-auto max-w-7xl px-4">
-        <!-- Campaign for Community -->
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="Campaign for Community" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">Campaign for Community</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- Research & Innovation -->
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="Research and Innovation" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">Research & Innovation</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
-        </div>
-
-        <!-- In Principle & Practice -->
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="In Principle and Practice" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">In Principle & Practice</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="In Principle and Practice" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">In Principle & Practice</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="In Principle and Practice" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">In Principle & Practice</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
-        </div>
-        <div class="w-1/3 group cursor-pointer">
-            <img src="img/covenant.jpeg" alt="In Principle and Practice" class="w-full h-[400px] object-cover">
-            <div class="bg-white py-4 px-6">
-                <div class="flex justify-between items-center">
-                    <span class="text-[#011f5b] text-lg">In Principle & Practice</span>
-                    <span class="text-red-700 group-hover:translate-x-2 transition-transform">&rarr;</span>
-                </div>
-            </div>
+ <section class="relative w-full">
+    
+    <div class="w-full h-[700px] relative flex flex-col items-center text-center justify-center">
+        <div class="absolute top-20 z-10 text-white px-4">
+            <h2 class="text-4xl font-bold">Penn Priorities</h2>
+            <p class="text-lg mt-4 max-w-2xl">
+                A look at a few of our big-picture priorities that improve Penn as we create 
+                knowledge to benefit the world.
+            </p>
         </div>
     </div>
 
-    <!-- Mobile Layout (hidden on desktop) -->
-    <div class="lg:hidden relative overflow-hidden">
-        <div class="slides-container flex transition-transform duration-500 ease-in-out">
-            <!-- Slide 1 -->
-            <div class="slide flex-none w-full px-4">
-                <div class="relative">
-                    <img src="campaign-community.jpg" alt="Campaign for Community" class="w-full h-[300px] object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-white py-4 px-6">
-                        <div class="flex justify-between items-center">
-                            <span class="text-[#011f5b] text-lg">Campaign for Community</span>
-                            <span class="text-red-700">&rarr;</span>
-                        </div>
+    <div class=" md:-mt-72 max-w-7xl mx-auto z-10">
+        <div class="swiper mySwiper">
+            <div class="swiper-wrapper">
+               
+                <div class="swiper-slide relative">
+                    <img src="img/research-innovation-singh.jpg" alt="Research & Innovation" class="w-full h-[500px] md:h-[500px] object-cover rounded-lg hover:scale-105 transition-transform duration-500">
+                    <div class="absolute bottom-0 bg-black bg-opacity-50 text-white p-4 w-full">
+                        <h3 class="text-lg font-bold">Research & Innovation</h3>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide relative">
+                    <img src="img/covenant.jpeg" alt="Covenant" class="w-full h-[500px] md:h-[500px] object-cover rounded-lg hover:scale-105 transition-transform duration-500">
+                    <div class="absolute bottom-0 bg-black bg-opacity-50 text-white p-4 w-full">
+                        <h3 class="text-lg font-bold">Covenant for the Future</h3>
+                    </div>
+                </div>
+              
+                <div class="swiper-slide relative">
+                    <img src="img/mark-alan-hughes-kleinman.jpg" alt="Innovation Leaders" class="w-full h-[500px] md:h-[500px] object-cover rounded-lg hover:scale-105 transition-transform duration-500">
+                    <div class="absolute bottom-0 bg-black bg-opacity-50 text-white p-4 w-full">
+                        <h3 class="text-lg font-bold">Innovation Leadership</h3>
+                    </div>
+                </div>
+                
+                <div class="swiper-slide relative">
+                    <img src="img/diversity-jackson-hbo-editing.jpg" alt="Diversity in Tech" class="w-full h-[500px] md:h-[500px] object-cover rounded-lg hover:scale-105 transition-transform duration-500">
+                    <div class="absolute bottom-0 bg-black bg-opacity-50 text-white p-4 w-full">
+                        <h3 class="text-lg font-bold">Diversity & Inclusion</h3>
+                    </div>
+                </div>
+               
+                <div class="swiper-slide relative">
+                    <img src="img/detlefsen-classroom-1.jpg" alt="Classroom Innovations" class="w-full h-[00px] md:h-[500px] object-cover rounded-lg hover:scale-105 transition-transform duration-100">
+                    <div class="absolute bottom-0 bg-black bg-opacity-50 text-white p-4 w-full">
+                        <h3 class="text-lg font-bold">Classroom Innovations</h3>
                     </div>
                 </div>
             </div>
 
-            <!-- Slide 2 -->
-            <div class="slide flex-none w-full px-4">
-                <div class="relative">
-                    <img src="research-innovation.jpg" alt="Research and Innovation" class="w-full h-[300px] object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-white py-4 px-6">
-                        <div class="flex justify-between items-center">
-                            <span class="text-[#011f5b] text-lg">Research & Innovation</span>
-                            <span class="text-red-700">&rarr;</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
+            <!-- Navigation Buttons -->
+            <div class="swiper-button-prev text-gray-700 hover:text-black"></div>
+            <div class="swiper-button-next text-gray-700 hover:text-black"></div>
 
-            <!-- Slide 3 -->
-            <div class="slide flex-none w-full px-4">
-                <div class="relative">
-                    <img src="principle-practice.jpg" alt="In Principle and Practice" class="w-full h-[300px] object-cover">
-                    <div class="absolute bottom-0 left-0 right-0 bg-white py-4 px-6">
-                        <div class="flex justify-between items-center">
-                            <span class="text-[#011f5b] text-lg">In Principle & Practice</span>
-                            <span class="text-red-700">&rarr;</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Navigation Dots (mobile only) -->
-        <div class="flex justify-center gap-2 mt-8">
-            <button class="w-2 h-2 rounded-full cursor-pointer dot active" data-index="0"></button>
-            <button class="w-2 h-2 rounded-full cursor-pointer dot" data-index="1"></button>
-            <button class="w-2 h-2 rounded-full cursor-pointer dot" data-index="2"></button>
-            <button class="w-2 h-2 rounded-full cursor-pointer dot" data-index="3"></button>
-            <button class="w-2 h-2 rounded-full cursor-pointer dot" data-index="4"></button>
+            <!-- Pagination Dots Adjusted Lower -->
+            <div class="swiper-pagination mt-6"></div>
         </div>
     </div>
 </section>
@@ -720,6 +656,25 @@ function showSlide1(index) {
         dot.classList.toggle('bg-gray-400', i !== index); // Inactive dot color
     });
 }
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 1,
+    spaceBetween: 10,
+    loop: true,
+    navigation: {
+      nextEl: ".swiper-button-next",
+      prevEl: ".swiper-button-prev",
+    },
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+    breakpoints: {
+      640: { slidesPerView: 1 },
+      768: { slidesPerView: 2 },
+      1024: { slidesPerView: 3 }
+    }
+  });
+
      </script>
 </body>
 </html>
