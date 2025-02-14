@@ -2149,6 +2149,10 @@
     font-size: var(--text-4xl);
     line-height: var(--leading-snug);
   }
+  .text-\[12px\]\/6 {
+    font-size: 12px;
+    line-height: calc(var(--spacing) * 6);
+  }
   .text-\[13px\]\/2 {
     font-size: 13px;
     line-height: calc(var(--spacing) * 2);
@@ -2181,6 +2185,12 @@
     font-size: 13px;
     line-height: calc(var(--spacing) * 10);
   }
+  .text-\[12px\] {
+    font-size: 12px;
+  }
+  .text-\[15px\] {
+    font-size: 15px;
+  }
   .text-\[20px\] {
     font-size: 20px;
   }
@@ -2190,17 +2200,11 @@
   .text-\[10px\] {
     font-size: 10px;
   }
-  .text-\[12px\] {
-    font-size: 12px;
-  }
   .text-\[13px\] {
     font-size: 13px;
   }
   .text-\[14px\] {
     font-size: 14px;
-  }
-  .text-\[15px\] {
-    font-size: 15px;
   }
   .text-\[1px\] {
     font-size: 1px;
@@ -2824,6 +2828,13 @@
   .transform-view {
     transform-box: view-box;
   }
+  .hover\:bg-\[\#011F5B\] {
+    &:hover {
+      @media (hover: hover) {
+        background-color: #011F5B;
+      }
+    }
+  }
   .hover\:bg-white {
     &:hover {
       @media (hover: hover) {
@@ -2835,6 +2846,13 @@
     &:hover {
       @media (hover: hover) {
         color: #b11205;
+      }
+    }
+  }
+  .hover\:text-white {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-white);
       }
     }
   }
