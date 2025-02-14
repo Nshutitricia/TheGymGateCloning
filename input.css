@@ -1,1 +1,5 @@
 @import "tailwindcss";
+@import url('https://fonts.googleapis.com/css2?family=EB+Garamond:ital,wght@0,400..800;1,400..800&family=Playfair+Display:ital,wght@0,400..900;1,400..900&display=swap');
+@theme{
+    --font-edgaramond: "ED Garamond", sans-serif;
+} 
